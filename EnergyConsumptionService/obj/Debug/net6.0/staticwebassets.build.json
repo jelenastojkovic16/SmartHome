@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TeWemNyIcWpdSccXoMOW3XgKjxHOVabzsN2S24d+QP0=",
+  "Source": "EnergyConsumptionService",
+  "BasePath": "_content/EnergyConsumptionService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

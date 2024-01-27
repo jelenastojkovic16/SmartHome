@@ -1,0 +1,74 @@
+name: "Energy-Consumption-Profile"
+manufacturer: "Smart Home Foundation"
+model: ""
+labels:
+  - "rpi"
+description: "Sensor cluster providing metrics for reading .csv"
+
+deviceResources:
+      -
+        name: timestampEC
+        description: "timestampEC"
+        properties:
+          value:
+            { type: "String", readWrite: "RW" }
+      -
+        name: houseOverall
+        description: "houseOverall"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: dishwasher
+        description: "dishwasher"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: furnace
+        description: "furnace"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: homeOffice
+        description: "homeOffice"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: fridge
+        description: "fridge"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: garageDoor
+        description: "garageDoor"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: kitchen
+        description: "kitchen"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: barn
+        description: "barn"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: microwave
+        description: "microwave"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }
+      -
+        name: livingRoom
+        description: "livingRoom"
+        properties:
+          value:
+            { type: "Float64", readWrite: "RW" }

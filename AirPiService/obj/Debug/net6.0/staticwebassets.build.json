@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aV3h7mcv9FhvFP4poPoU0s2i72eAi6Vr8fRFrYbcLUk=",
+  "Source": "AirPiService",
+  "BasePath": "_content/AirPiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

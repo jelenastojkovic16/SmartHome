@@ -1,0 +1,74 @@
+name: "Raspberry-Profile"
+manufacturer: "Raspberry Pi Foundation"
+model: "Raspberry Pi 3b+"
+labels:
+  - "rpi"
+description: "Sensor cluster providing metrics for reading .csv"
+
+deviceResources:
+      -
+        name: id
+        description: "id"
+        properties:
+          value:
+            { type: "String", readWrite: "RW" }
+      -
+        name: timestamp
+        description: "timestamp"
+        properties:
+          value:
+            { type: "String", readWrite: "RW" }
+      -
+        name: volume
+        description: "volume"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
+      -
+        name: lightlevel
+        description: "lightlevel"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
+      -
+        name: temperaturedht
+        description: "temperaturedht"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
+      -
+        name: pressure
+        description: "pressure"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
+      -
+        name: temperaturebmp
+        description: "temperaturebmp"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
+      -
+        name: realtivehumidity
+        description: "relativehumidity"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
+      -
+        name: airquality
+        description: "airquality"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
+      -
+        name: carbonmonoxide
+        description: "carbonmonoxide"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
+      -
+        name: nitrogendioxide
+        description: "nitrogendioxide"
+        properties:
+          value:
+            { type: "Int64", readWrite: "RW" }
